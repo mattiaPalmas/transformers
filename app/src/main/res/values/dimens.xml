@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Padding
+    <dimen name="padding_12">12dp</dimen>
+
+    //Margin
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_64">64dp</dimen>
+
+    //Text Size
+    <dimen name="size_24">24sp</dimen>
+</resources>
