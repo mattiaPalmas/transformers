@@ -4,7 +4,7 @@ data class Transformer(
     val id: Int,
     val name: String,
     val team: String,
-    val strength: String,
+    val strength: Int,
     val intelligence: Int,
     val speed: Int,
     val endurance: Int,

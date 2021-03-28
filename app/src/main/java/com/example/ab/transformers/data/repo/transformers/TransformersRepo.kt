@@ -10,4 +10,7 @@ class TransformersRepo(
         return remoteDataSource.getTransformers(token)
     }
 
+    override suspend fun saveTransformer(token: String, transformer: Transformer) {
+        return remoteDataSource.saveTransformer(token, transformer)
+    }
 }

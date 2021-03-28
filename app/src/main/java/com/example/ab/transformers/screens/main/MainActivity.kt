@@ -51,10 +51,6 @@ class MainActivity : BaseViewModelActivity() {
         }
     }
 
-    override fun initViewModelObservers() {
-
-    }
-
     private fun setNewFragment(fragment: Fragment, bundle: Bundle? = null) {
         bundle?.let { fragment.arguments = it }
         supportFragmentManager.beginTransaction()
@@ -98,5 +94,9 @@ class MainActivity : BaseViewModelActivity() {
     private fun deselectTeamBtn() {
         main_navigation.team_btn.setBackgroundColor(ContextCompat.getColor(this, R.color.color_white))
         main_navigation.team_btn.title_tv.setTextColor(ContextCompat.getColor(this, R.color.color_black))
+    }
+
+    override fun initViewModelObservers() {
+
     }
 }
