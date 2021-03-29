@@ -21,6 +21,10 @@ class MainViewModel(
     val transformerSavedLiveData: LiveData<Boolean>
         get() = _transformerSavedLiveData
 
+    private val _isLoadingLiveData = MutableLiveData<Boolean>()
+    val isLoadingLiveDataLiveData: LiveData<Boolean>
+        get() = _isLoadingLiveData
+
     fun getTransformers() {
         launchBackgroundJob(
             backgroundJob = {
@@ -40,6 +44,7 @@ class MainViewModel(
     fun saveNewTransformer(transformer: Transformer) {
         launchBackgroundJob(
             backgroundJob = {
+                _isLoadingLiveData.postValue(true)
                 val token = tokenRepo.getToken()
 
                 transformersRepo.saveTransformer(token, transformer)

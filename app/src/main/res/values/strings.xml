@@ -1,11 +1,46 @@
 <resources>
-  <string name="app_name">Transformers Fight</string>
+    <string name="app_name">Transformers Fight</string>
 
-  <string name="create">Create</string>
-  <string name="fight">Fight</string>
-  <string name="team">Team</string>
+    <string name="create">Create</string>
+    <string name="fight">Fight</string>
+    <string name="team">Team</string>
 
-  <string name="transformer_saved">Transformer Saved.</string>
-  <string name="transformer_saved_desc">Your transformer is ready to fight!</string>
-  <string name="ok">OK</string>
+    <string name="create_transformer">Create your new Transformer</string>
+    <string name="transformer_saved">Transformer Saved.</string>
+    <string name="transformer_saved_desc">Your transformer is ready to fight!</string>
+    <string name="ok">OK</string>
+
+    <string name="name_field">Name:</string>
+    <string name="team_field">Team:</string>
+    <string name="strength_field">Strength:</string>
+    <string name="intelligence_field">Intelligence:</string>
+    <string name="speed_field">Speed:</string>
+    <string name="endurance_field">Endurance:</string>
+    <string name="rank_field">Rank:</string>
+    <string name="courage_field">Courage:</string>
+    <string name="firepower_field">Firepower:</string>
+    <string name="skill_field">Skill:</string>
+
+    <string name="continue_btn">Continue</string>
+
+    <string-array name="team_array">
+        <item name="empty"> </item>
+        <item name="autobot">Autobot</item>
+        <item name="decepticon">Decepticon</item>
+    </string-array>
+
+    <string-array name="numbers_1_to_10">
+        <item name="empty"> </item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+        <item name="8">8</item>
+        <item name="9">9</item>
+        <item name="10">10</item>
+    </string-array>
+
 </resources>

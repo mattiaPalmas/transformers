@@ -28,8 +28,8 @@ class MainActivity : BaseViewModelActivity() {
         main_navigation.fight_btn.icon_iv.setBackgroundResource(R.drawable.ic_autobot)
         main_navigation.team_btn.icon_iv.setBackgroundResource(R.drawable.ic_team)
 
-        selectFightBtn()
-        setNewFragment(FightFragment())
+        selectTeamBtn()
+        setNewFragment(TeamFragment())
 
         setupListeners()
     }

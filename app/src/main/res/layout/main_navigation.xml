@@ -19,6 +19,15 @@
         android:layout_height="wrap_content"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/team_btn"
+        app:layout_constraintTop_toBottomOf="@id/top_separator" />
+
+    <include
+        android:id="@+id/team_btn"
+        layout="@layout/item_navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/create_btn"
         app:layout_constraintEnd_toStartOf="@id/fight_btn"
         app:layout_constraintTop_toBottomOf="@id/top_separator" />
 
@@ -27,18 +36,11 @@
         layout="@layout/item_navigation"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="@id/team_btn"
-        app:layout_constraintStart_toEndOf="@id/create_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/team_btn"
         app:layout_constraintTop_toBottomOf="@id/top_separator" />
 
-    <include
-        android:id="@+id/team_btn"
-        layout="@layout/item_navigation"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toEndOf="@id/fight_btn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/top_separator" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

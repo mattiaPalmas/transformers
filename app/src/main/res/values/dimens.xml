@@ -2,8 +2,11 @@
 <resources>
     //Padding
     <dimen name="padding_12">12dp</dimen>
+    <dimen name="padding_24">24dp</dimen>
 
     //Margin
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
     <dimen name="margin_12">12dp</dimen>
     <dimen name="margin_24">24dp</dimen>
     <dimen name="margin_64">64dp</dimen>
